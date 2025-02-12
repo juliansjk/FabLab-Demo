@@ -13,7 +13,7 @@ import Verification from './components/pages/Verification';
 
 const App = () => {
   return (
-    <BrowserRouter basename='/FabLab-Demo'>
+    <BrowserRouter basename='/'>
         <Routes>
               <Route path='login' element={<Login/>}/>
               <Route path='signup' element={<Signup/>}/>
